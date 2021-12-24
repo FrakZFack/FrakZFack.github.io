@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECO-SPORT ГЛАВНАЯ</title>
+  
+</head>
+<body>
+  
+ <!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-64d924eb.js"></script>
+
+<!--Стили элементов для корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-64d924eb.css" rel="stylesheet">
+  
+  
+ <script>   
+  document.addEventListener("EasyNetShopLoaded", function(event) {
+     /* Текст, который мы хотим добавить. Пишем В ОДНУ СТРОКУ без переносов */
+      var selhtml = 'Нажимая на кнопку ЗАКАЗАТЬ Вы даете согласие на обработку указанных персональных данных в соответствии с законом РФ (152-ФЗ) и подтверждаете, что ознакомлены с <a href="https://d1mast3r.000webhostapp.com/confidenc.html">политикой конфиденциальности компании</a>';
+  
+  
+    /* Оформляем текст */
+    var fhtml = '';
+    fhtml += '<div style="padding:0px 20px;">';
+    fhtml +=         selhtml;
+    fhtml += '</div>';
+
+
+    /* Добавляем в окно корзины */
+    ens_jQuery('.easynetshop-modal-cart .easynetshop-footer').before(fhtml);
+  }, false);
+</script>
+
+<script>   
+  document.addEventListener("EasyNetShopLoaded", function(event) {
+      /* Текст, который мы хотим добавить. Пишем В ОДНУ СТРОКУ без переносов */
+      var selhtml = 'Информация о доставке : Доставка возможна: Самовывозом или "Почтой России".При заказе от 10 000 рублей доставка бесплатная Почтой России при условии общего веса посылки с упаковкой до 5 кг и габаритами, не превышающими 60х60х70 см. Бесплатная доставка устанавливается менеджером вручную при прозвоне клиента. В течении часа с вами свяжется наш сотрудник и сообщит об отправке товара.Доставка осуществляется Почтой России. Цена платной доставки: 300 рублей.';
+  
+  
+    /* Оформляем текст */
+    var fhtml = '';
+    fhtml += '<div style="padding:0px 20px;margin-top:10px;">';
+    fhtml +=         selhtml;
+    fhtml += '</div>';
+
+
+    /* Добавляем в окно корзины */
+    ens_jQuery('.easynetshop-modal-cart .easynetshop-footer').before(fhtml);
+  }, false);
+</script>
+
+
+
+  <nav>
+     <a class="eco" href="index.html">ECO-SPORT</a>
+    <a href="catalog.my.html">Каталог</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="help.html">Поддержка</a>
+    <a href="oNas.html">О нас</a>
+   <!--  <a href="basket.html">Корзина</a> -->
+  <span>МАГАЗИН СПОРТИВНОЙ ЭКИПИРОВКИ</span>
+  </nav>
+  <main>
+
+    <!-- Блок 1 -->
+
+    <article class="text">
+      <div class="dostavka">
+        <span class="free">БЕСПЛАТНАЯ ДОСТАВКА</span>
+      <span class="zakaz">ПРИ ЗАКАЗЕ</span>
+      <span class="rub">ОТ 6000 РУБЛЕЙ</span>
+      </div>
+      <div class="block1">      
+      <span class="stock">
+        АКЦИЯ!
+      </span>
+     <!--  <a href="https://yandex.ru/">
+      <button class="textBtn">Подробнее</button>
+       </a>    -->
+    </div>
+    
+    </article>
+
+      <!-- Блок 2 -->
+
+      <article class="bye">
+    
+       <div class="byediv">
+        <img class="shaker" src="img/shaker.jpg" alt="Картинка">
+       <div class="byebutton">
+       
+       
+       <button class="bye-btn"><a href="catalog.my_zal.html">КАТАЛОГ</a></button>
+       
+    </div>
+       </div>
+        
+
+        <div class="sport-pit">
+        <span class="shakesport">ТОВАРЫ ДЛЯ СПОРТИВНОГО ПИТАНИЯ</span>
+       <span class="iron-true">IRON-TRUE</span>
+       <span class="want">ХОЧЕШЬ ТАКОЙ ЖЕ ШЕЙКЕР ?</span>
+       <span class="go_over">ПЕРЕХОДИ В</span>
+     </div>
+     
+
+     </article>
+  </main>
+  <footer>
+    <ul>
+     <a href="index.html"><li class="click">Главная</li></a>
+      <a href="catalog.my.html"><li class="click">Каталог</li></a>
+     <a href="help.html"><li class="click">Поддержка</li></a>
+      <a href="contacts.html"><li class="click">Контакты</li></a>
+    </ul>
+    </ul>
+    <ul>
+      <li class="foot">Время работы: 9:00 - 21:00</li>
+      <li class="foot">© ECO-SPORT 2019-2021</li>
+       
+
+    </ul>
+    <ul>
+      <li>8-800-555-35-35</li>
+      <li>sobakamail@mail.ru</li>
+      <li>Адрес - г.Кемерово</li>
+      <li>ул.Рукавишникова 228/1337</li>
+    </ul>
+  </footer>
+</body>
+</html>

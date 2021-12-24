@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style_tovar.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RDX</title>
+</head>
+<body>
+ 
+  <!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-64d924eb.js"></script>
+
+<!--Стили элементов для корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-64d924eb.css" rel="stylesheet">
+  
+
+ <script>   
+  document.addEventListener("EasyNetShopLoaded", function(event) {
+      /* Текст, который мы хотим добавить. Пишем В ОДНУ СТРОКУ без переносов */
+      var selhtml = 'Нажимая на кнопку ЗАКАЗАТЬ Вы даете согласие на обработку указанных персональных данных в соответствии с законом РФ (152-ФЗ) и подтверждаете, что ознакомлены с <a href="#">политикой конфиденциальности компании</a>';
+  
+  
+    /* Оформляем текст */
+    var fhtml = '';
+    fhtml += '<div style="padding:0px 20px;">';
+    fhtml +=         selhtml;
+    fhtml += '</div>';
+
+
+    /* Добавляем в окно корзины */
+    ens_jQuery('.easynetshop-modal-cart .easynetshop-footer').before(fhtml);
+  }, false);
+</script>
+  
+  <nav>
+    <a class="eco" href="index.html">ECO-SPORT</a>
+    <a href="catalog.my.html">Каталог</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="help.html">Поддержка</a>
+    <a href="oNas.html">О нас</a>
+   <!--  <a href="basket.html">Корзина</a> -->
+  <span>МАГАЗИН СПОРТИВНОЙ ЭКИПИРОВКИ</span>
+  </nav>
+  <main>
+
+<article class="fairtex">
+	<div>
+	<img src="img/balanc.png" alt="Картинка">
+<div class="fairtex-one">
+<span>
+	Перчатки для ММА - RDX (8 унций)
+
+</span>
+<p>Балансировочная платформа служит для укрепления мышечного корсета, или мышц-стабилизаторов, поддерживающих красивую осанку и пресс.
+В повседневной жизни эти мышцы задействованы реже, особенно при сидячем образе жизни. При постоянном использовании полусферы мышечный корсет приобретет больший тонус. Платформа прекрасно подходит для более эффективных тренировок с гантелями или эспандерами: она обеспечивает распределенную равномерную нагрузку, подходящую как новичкам, так и опытным спортсменам.
+
+</p>
+<a class="btn-ens-action btn-ens-style d1" data-rel="64d924eb231386">Купить</a>
+
+
+</div>
+    <div class="wrapper">
+  <input type="checkbox" id="callback">
+  <
+  
+  <form action="/" class="popup">
+    <span>Размер укажите в комментарии к заказу</span>
+    <label class="close" for="callback">+</label>
+  </form>
+</div>
+       
+
+</article>
+
+   
+    
+  </main>
+ <footer>
+    <ul>
+     <a href="index.html"><li class="click">Главная</li></a>
+      <a href="catalog.my.html"><li class="click">Каталог</li></a>
+     <a href="help.html"><li class="click">Поддержка</li></a>
+      <a href="contacts.html"><li class="click">Контакты</li></a>
+    </ul>
+    </ul>
+    <ul>
+      <li class="foot">Время работы: 9:00 - 21:00</li>
+      <li class="foot">© ECO-SPORT 2019-2021</li>
+       
+
+    </ul>
+    <ul>
+      <li>8-800-555-35-35</li>
+      <li>sobakamail@mail.ru</li>
+      <li>Адрес - г.Кемерово</li>
+      <li>ул.Рукавишникова 228/1337</li>
+    </ul>
+  </footer>
+</body>
+</html>
